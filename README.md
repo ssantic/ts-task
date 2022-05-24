@@ -10,11 +10,11 @@ Steps for the task.
 1. git clone , cd inside git directory
 2. copy/download the data to src/dataset, 
 
-mkdir src/dataset
-export AWS_ACCESS_KEY_ID=<>
-export AWS_SECRET_ACCESS_KEY=<>
-export AWS_DEFAULT_REGION=eu-central-1
-aws s3 cp s3://career-builder-source/source_data/marketing_sample_for_careerbuilder_usa-careerbuilder_job_listing__20200401_20200630__30k_data.ldjson src/dataset/
+- mkdir src/dataset
+- export AWS_ACCESS_KEY_ID=<>
+- export AWS_SECRET_ACCESS_KEY=<>
+- export AWS_DEFAULT_REGION=eu-central-1
+- aws s3 cp s3://career-builder-source/source_data/marketing_sample_for_careerbuilder_usa-careerbuilder_job_listing__20200401_20200630__30k_data.ldjson src/dataset/
 
 3. 
  - docker-compose up -d
