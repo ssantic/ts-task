@@ -17,9 +17,9 @@ export AWS_DEFAULT_REGION=eu-central-1
 aws s3 cp s3://career-builder-source/source_data/marketing_sample_for_careerbuilder_usa-careerbuilder_job_listing__20200401_20200630__30k_data.ldjson src/dataset/
 
 3. 
- -3.1 docker-compose up -d
- -3.2 docker ps
- -3.3 docker logs jupyter-notebook
+ - docker-compose up -d
+ - docker ps
+ - docker logs jupyter-notebook
     - copy the URL,
     - replace the 127.0.0.1 from your public IP.
     - Example:
