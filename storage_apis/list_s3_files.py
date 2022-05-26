@@ -10,4 +10,4 @@ headers["accept"] = "application/json"
 resp = requests.get(url, headers=headers)
 
 print(resp.status_code)
-
+print(resp.json())
